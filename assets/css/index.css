@@ -1,0 +1,35 @@
+/* Header */
+
+.menu_container {
+    background-color: var(--purple-800);
+    position: sticky;
+    top: 0;
+    filter: opacity(0.9);
+    height: 80px;
+}
+
+.menu_container a {
+    font-size: 16px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.menu_container a:hover {
+    color: var(--purple-200);
+}
+
+.menu_content {
+    max-width: 1120px;
+    padding: 0 24px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_lista {
+    list-style: none;
+}
+ 
+.menu_lista li {
+    margin: 0 0 0 16px;
+}

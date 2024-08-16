@@ -1,0 +1,47 @@
+:root {
+    --purple-200: #9a7bd1;
+    --purple-500: #6b36c8;
+    --purple-800: #441f88;
+ 
+    --black-800: #171717;
+ 
+    --gray-200: #cccccc;
+    --gray-400: #505861;
+ 
+    --white: #F9F9F9;
+}
+
+* {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--gray-200);
+    color: var(--black-800);
+}
+
+.button {
+    border: 1px, solid, var(--purple-800);
+    border-radius: 0.75em;
+
+    padding: 12px 32px;
+
+    font-weight: 700;
+    text-align: center;
+}
+
+.button:hover {
+    color: var(--gray-200);
+    background-color: var(--purple-800);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
