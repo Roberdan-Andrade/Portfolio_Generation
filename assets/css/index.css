@@ -100,10 +100,12 @@
 
 .sobre_p {
     text-align: center;
+
+    width: 80%;
 }
 
 .sobre_github {
-    margin: 2em 0;
+    margin: 1em 0;
 }
 
 .sobre_github_botao {
