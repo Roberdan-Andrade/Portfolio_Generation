@@ -75,6 +75,7 @@
 }
 
 /* Main - Sobre */
+
 .about {
     margin: 0 5em;
 }
@@ -108,15 +109,87 @@
     margin: 1em 0;
 }
 
-.sobre_github_botao {
-    padding: 1em 2em;
+.sobre_github_itens {
+    padding: 0 2.5em;
+}
 
-    border: 1px solid var(--purple-500);
-    border-radius: 1em;
+/* Main - Contato */
 
+.contato_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 545px);
+    gap: 30px;
+
+    align-items: center;
+
+    max-width: 1120px;
+
+    margin: auto;
+    height: 100vh;
+}
+
+.contato_content {
+    flex-direction: column;
+    margin: 0 1em;
+}
+
+.contato_content h4 {
+    font-size: 2em;
     font-weight: 700;
 }
 
-.sobre_github_itens {
-    padding: 0 2.5em;
+.contato_content p {
+    margin: 1.5em 0;
+}
+
+.social_container a img {
+    width: 75%;
+    height: 75%;
+}
+
+.social_icon:hover {
+    filter: 
+    brightness(0)
+    saturate(100%)
+    invert(11%)
+    sepia(59%)
+    saturate(5377%)
+    hue-rotate(259deg)
+    brightness(85%)
+    contrast(94%)
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2.5em;
+    padding: 1em;
+}
+
+form input, textarea {
+    margin: 0.5em 0;
+    padding: 0.75em 0.5em;
+
+    border-radius: 1em;
+    border: none;
+}
+
+form button {
+    background-color: transparent;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--purple-500);
+
+    height: 80px;
+
+    font-size: 1.5em;
+    color: var(--white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
