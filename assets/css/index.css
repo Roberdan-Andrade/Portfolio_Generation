@@ -88,6 +88,7 @@
     flex-direction: column;
 
     margin: 0 1.2em;
+    margin-left: 2em;
 }
 
 .sobre_h1 {
@@ -97,6 +98,23 @@
     margin: 0.5em 0;
 }
 
-.sobre_github {
+.sobre_p {
+    text-align: center;
+}
 
+.sobre_github {
+    margin: 2em 0;
+}
+
+.sobre_github_botao {
+    padding: 1em 2em;
+
+    border: 1px solid var(--purple-500);
+    border-radius: 1em;
+
+    font-weight: 700;
+}
+
+.sobre_github_itens {
+    padding: 0 2.5em;
 }
