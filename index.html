@@ -51,23 +51,7 @@
         </section>
 
         <section id="about" class="flex about">
-            <img class="about_foto" src="assets/img/user_01.svg" alt="Foto do Perfil do Github" width="325px">
 
-            <article id="sobre_texto" class="flex sobre_texto">
-                <h1 class="sobre_h1">Sobre mim</h1>
-                <p class="sobre_p">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quibusdam odit voluptates incidunt inventore rem error harum
-                    blanditiis accusamus vitae, minus fugit consequatur?
-                    Dolorum maiores magni deleniti modi sit laudantium totam!
-                </p>
-
-                <div id="sobre_github" class="flex sobre_github">
-                    <a class="button" target="_blank" href="https://github.com/conteudoGeneration">Github</a>
-                    <p class="sobre_github_itens">200 Seguidores</p>
-                    <p class="sobre_github_itens">100 Repositórios</p>
-                </div>
-            </article>
         </section>
 
         <section id="contact" class="contato_container">
@@ -89,7 +73,10 @@
                 </div>
             </article>
 
-            <form action="" method="POST">
+            <form id="formulario" action="https://formsubmit.co/d425c3abca8e6edad333b3d489546a89" method="POST">
+
+                <input type="hidden" name="_next" value="http://localhost:5500/sucess.html">
+                <input type="hidden" name="_captcha" value="false">
 
                 <label for="name">Nome: </label>
                 <input id="name" type="text" name="name" placeholder="Digite seu nome">
@@ -116,4 +103,6 @@
     </footer>
     
 </body>
+
+<script src="assets/js/script.js"></script>
 </html>
